@@ -1,0 +1,6 @@
+
+export const SUPABASE_CONFIG = {
+  url: 'https://ufnycvdchkasixfudeca.supabase.co',
+  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmbnljdmRjaGthc2l4ZnVkZWNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg2MDgyNTEsImV4cCI6MjA3NDE4NDI1MX0.UWUNiA2cXivsf2z4llJPwZv3nMZ1qu-zga9JG4i5Ec4',
+  serviceKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmbnljdmRjaGthc2l4ZnVkZWNhIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1ODYwODI1MSwiZXhwIjoyMDc0MTg0MjUxfQ.hMzZGevKX2yfEKm63wiC8gv3dv7iplxmeEPQmu0RGxs'
+};
