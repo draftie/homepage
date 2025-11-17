@@ -74,8 +74,8 @@ export default function Features() {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="https://static.readdy.ai/image/f119cb5900d78dd215c8812732671709/46e10d86552e13dbb589b7d5210f49fe.png"
+              <img
+                src="/images/features-illustration.png"
                 alt="特許戦略AI支援"
                 className="w-full h-80 object-cover object-top rounded-2xl shadow-lg"
               />

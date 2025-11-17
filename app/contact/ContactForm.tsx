@@ -2,7 +2,6 @@
 'use client';
 
 import { useState } from 'react';
-import { SUPABASE_CONFIG } from '../../lib/supabase-config';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -29,17 +28,12 @@ export default function ContactForm() {
     setSubmitStatus('');
 
     try {
-      const formBody = new FormData();
-      Object.keys(formData).forEach(key => {
-        formBody.append(key, formData[key as keyof typeof formData]);
-      });
-
-      const response = await fetch(`${SUPABASE_CONFIG.url}/functions/v1/contact-form`, {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${SUPABASE_CONFIG.anonKey}`
+          'Content-Type': 'application/json',
         },
-        body: formBody
+        body: JSON.stringify(formData),
       });
 
       const result = await response.json();
@@ -150,8 +144,9 @@ export default function ContactForm() {
             className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-slate-500 focus:border-transparent text-sm pr-8"
           >
             <option value="">選択してください</option>
-            <option value="demo">無料デモのお申し込み</option>
-            <option value="consultation">個別相談のお申し込み</option>
+            <option value="free-trial">無料トライアル申込</option>
+            <option value="standard-plan">スタンダードプラン申込</option>
+            <option value="enterprise-plan">エンタープライズプラン申込</option>
             <option value="pricing">料金・プランについて</option>
             <option value="technical">技術的なお問い合わせ</option>
             <option value="partnership">パートナーシップについて</option>

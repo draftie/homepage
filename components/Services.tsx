@@ -11,7 +11,7 @@ export default function Services() {
       description: 'AIが業界動向と技術トレンドを分析し、発明アプローチを提案。ユーザの戦略的な特許ポートフォリオ構築を支援します。',
       status: '開発中',
       statusColor: 'bg-amber-100 text-amber-700',
-      bgImage: 'https://readdy.ai/api/search-image?query=abstract%20minimalist%20illustration%20of%20lightbulb%20and%20innovation%20concepts%2C%20navy%20blue%20and%20slate%20color%20scheme%2C%20clean%20geometric%20shapes%20with%20soft%20gradients%2C%20professional%20business%20vector%20art%20with%20subtle%20tech%20elements%2C%20modern%20flat%20design%20style&width=800&height=400&seq=idea-bg&orientation=landscape'
+      bgImage: '/images/service-idea-bg.png'
     },
     {
       icon: 'ri-file-text-line',
@@ -20,7 +20,7 @@ export default function Services() {
       description: '複雑な特許出願書類の作成をサポート。AIが技術内容を理解し、適切な表現と構成を提案してユーザの作業を効率化。',
       status: '提供中',
       statusColor: 'bg-emerald-100 text-emerald-700',
-      bgImage: 'https://readdy.ai/api/search-image?query=abstract%20minimalist%20illustration%20of%20document%20creation%20and%20filing%2C%20navy%20blue%20and%20slate%20color%20scheme%2C%20clean%20geometric%20shapes%20representing%20papers%20and%20text%2C%20professional%20business%20vector%20art%20with%20modern%20design%20elements&width=800&height=400&seq=document-bg&orientation=landscape'
+      bgImage: '/images/service-document-bg.png'
     },
     {
       icon: 'ri-search-line',
@@ -29,7 +29,7 @@ export default function Services() {
       description: '膨大な特許データベースから関連技術を瞬時に検索・分析。ユーザの競合調査と優位性確立活動をサポート。',
       status: '開発中',
       statusColor: 'bg-amber-100 text-amber-700',
-      bgImage: 'https://readdy.ai/api/search-image?query=abstract%20minimalist%20illustration%20of%20research%20and%20data%20analysis%2C%20navy%20blue%20and%20slate%20color%20scheme%2C%20clean%20geometric%20shapes%20representing%20search%20and%20discovery%2C%20professional%20business%20vector%20art%20with%20database%20visualization%20elements&width=800&height=400&seq=research-bg&orientation=landscape'
+      bgImage: '/images/service-research-bg.png'
     },
     {
       icon: 'ri-translate-2',
@@ -38,7 +38,7 @@ export default function Services() {
       description: '特許文書の専門用語翻訳をサポート。国際出願や外国特許調査におけるユーザの言語対応活動を支援。',
       status: '開発中',
       statusColor: 'bg-amber-100 text-amber-700',
-      bgImage: 'https://readdy.ai/api/search-image?query=abstract%20minimalist%20illustration%20of%20translation%20and%20global%20communication%2C%20navy%20blue%20and%20slate%20color%20scheme%2C%20clean%20geometric%20shapes%20representing%20languages%20and%20text%20conversion%2C%20professional%20business%20vector%20art%20with%20international%20elements&width=800&height=400&seq=translate-bg&orientation=landscape'
+      bgImage: '/images/service-translate-bg.png'
     }
   ];
 
@@ -57,7 +57,7 @@ export default function Services() {
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div 
+              <div
                 className="relative h-48 bg-cover bg-center flex items-center justify-center"
                 style={{
                   backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.7)), url('${service.bgImage}')`

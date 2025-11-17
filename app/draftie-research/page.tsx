@@ -8,10 +8,10 @@ export default function DraftieResearchPage() {
   return (
     <div className="min-h-screen">
       <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Advanced%20research%20laboratory%20with%20digital%20screens%20showing%20patent%20analysis%20data%20visualization%2C%20modern%20scientific%20equipment%2C%20glowing%20blue%20interface%20elements%2C%20clean%20professional%20atmosphere%20with%20analytical%20charts%20and%20graphs%20in%20background&width=1920&height=1080&seq=draftie-research-bg&orientation=landscape')`
+            backgroundImage: `url('/images/draftie-research-hero.png')`
           }}
         ></div>
 

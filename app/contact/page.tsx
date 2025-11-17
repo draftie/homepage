@@ -13,7 +13,7 @@ export default function Contact() {
         <section 
           className="py-16 bg-cover bg-center relative"
           style={{
-            backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.8)), url('https://readdy.ai/api/search-image?query=minimalist%20flat%20design%20illustration%20of%20customer%20support%20and%20communication%2C%20navy%20blue%20and%20white%20color%20scheme%2C%20professional%20business%20illustration%20with%20contact%20icons%2C%20clean%20geometric%20shapes%2C%20vector%20art%20style%20with%20subtle%20tech%20elements&width=1920&height=600&seq=contact-hero&orientation=landscape')`
+            backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.8)), url('/images/contact-hero.png')`
           }}
         >
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center text-white relative z-10">

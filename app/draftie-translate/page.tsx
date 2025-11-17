@@ -8,10 +8,10 @@ export default function DraftieTranslatePage() {
   return (
     <div className="min-h-screen">
       <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20translation%20technology%20workspace%20with%20multiple%20language%20texts%20floating%20in%20holographic%20displays%2C%20AI%20neural%20network%20visualization%2C%20global%20communication%20symbols%2C%20clean%20minimalist%20professional%20environment%20with%20blue%20and%20white%20lighting%20elements&width=1920&height=1080&seq=draftie-translate-bg&orientation=landscape')`
+            backgroundImage: `url('/images/draftie-translate-hero.png')`
           }}
         ></div>
 

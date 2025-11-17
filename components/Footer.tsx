@@ -45,18 +45,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">企業情報</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#about" className="text-slate-300 hover:text-white transition-colors cursor-pointer">
+                <Link href="/#about" className="text-slate-300 hover:text-white transition-colors cursor-pointer">
                   私たちについて
-                </a>
-              </li>
-              <li>
-                <Link href="/news" className="text-slate-300 hover:text-white transition-colors cursor-pointer">
-                  ニュース
-                </Link>
-              </li>
-              <li>
-                <Link href="/careers" className="text-slate-300 hover:text-white transition-colors cursor-pointer">
-                  採用情報
                 </Link>
               </li>
               <li>
@@ -71,7 +61,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm mb-4 md:mb-0">
-              2025 Draftie Inc. All rights reserved. www.draftie.ai
+              &copy; 2025 Draftie Inc. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy" className="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer">
@@ -80,8 +70,8 @@ export default function Footer() {
               <Link href="/terms" className="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer">
                 利用規約
               </Link>
-              <Link href="/security" className="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer">
-                セキュリティ
+              <Link href="/legal" className="text-slate-400 hover:text-white text-sm transition-colors cursor-pointer">
+                特定商取引法に基づく表記
               </Link>
             </div>
           </div>

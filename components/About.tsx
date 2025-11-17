@@ -50,8 +50,8 @@ export default function About() {
               </div>
             </div>
             <div>
-              <img 
-                src="https://static.readdy.ai/image/f119cb5900d78dd215c8812732671709/3d355e94db1ce10e52f5f3548e8a654b.png"
+              <img
+                src="/images/about-team.png"
                 alt="Draftie本社ビル"
                 className="w-full h-96 object-cover object-top rounded-2xl shadow-lg"
               />

@@ -11,7 +11,7 @@ export default function DraftieIdeaPage() {
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20technology%20innovation%20laboratory%20with%20AI%20neural%20networks%20glowing%20circuits%20and%20futuristic%20interface%20elements%2C%20clean%20minimalist%20background%20with%20subtle%20blue%20and%20white%20lighting%2C%20professional%20corporate%20atmosphere%20with%20advanced%20digital%20innovation%20concepts&width=1920&height=1080&seq=draftie-idea-bg&orientation=landscape')`
+            backgroundImage: `url('/images/draftie-idea-hero.png')`
           }}
         ></div>
 

@@ -1,6 +1,8 @@
 
 'use client';
 
+import Link from 'next/link';
+
 export default function CTA() {
   return (
     <section className="py-20 bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900">
@@ -9,19 +11,14 @@ export default function CTA() {
           特許戦略を変革しませんか？
         </h2>
         <p className="text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl mx-auto">
-          無料デモで実際の機能をお試しください。<br />
-          あなたの特許戦略がどれほど効率化されるかを実感してください。
+          お気軽にお問い合わせください。<br />
+          あなたの特許戦略がどれほど効率化されるかをご説明いたします。
         </p>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <button className="bg-white text-slate-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-50 transition-colors shadow-lg whitespace-nowrap cursor-pointer">
-            <i className="ri-play-circle-line mr-2"></i>
-            無料デモを開始
-          </button>
-          <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-slate-800 transition-colors whitespace-nowrap cursor-pointer">
-            <i className="ri-calendar-line mr-2"></i>
-            個別相談を予約
-          </button>
+
+        <div className="flex justify-center mb-12">
+          <Link href="/contact" className="bg-white text-slate-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-50 transition-colors shadow-lg whitespace-nowrap cursor-pointer">
+            お問い合わせ
+          </Link>
         </div>
 
         <div className="grid sm:grid-cols-3 gap-8 text-center">

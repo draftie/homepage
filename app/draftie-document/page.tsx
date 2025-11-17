@@ -7,10 +7,10 @@ export default function DraftieDocumentPage() {
   return (
     <div className="min-h-screen">
       <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
-            backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20professional%20document%20creation%20workspace%20with%20clean%20interface%20elements%2C%20AI%20technology%20symbols%20and%20digital%20document%20processing%2C%20minimalist%20blue%20and%20white%20color%20scheme%2C%20sophisticated%20corporate%20atmosphere%20with%20advanced%20text%20editing%20and%20automation%20concepts&width=1920&height=1080&seq=draftie-document-bg&orientation=landscape')`
+            backgroundImage: `url('/images/draftie-document-hero.png')`
           }}
         ></div>
 

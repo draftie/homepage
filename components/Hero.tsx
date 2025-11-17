@@ -6,7 +6,7 @@ export default function Hero() {
     <section 
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.8)), url('https://static.readdy.ai/image/f119cb5900d78dd215c8812732671709/74d1201127c6156a7afdd436b67a41d6.png')`
+        backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.8)), url('/images/hero-bg.png')`
       }}
       suppressHydrationWarning={true}
     >
@@ -21,10 +21,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           <Link href="/contact" className="bg-white text-slate-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-100 transition-colors cursor-pointer whitespace-nowrap">
-            無料相談を申し込む
-          </Link>
-          <Link href="#services" className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-slate-800 transition-colors whitespace-nowrap cursor-pointer">
-            サービス詳細
+            お問い合わせ
           </Link>
         </div>
       </div>
