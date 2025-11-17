@@ -2,11 +2,13 @@
 'use client';
 
 import Link from 'next/link';
+import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 export default function DraftieTranslatePage() {
   return (
     <div className="min-h-screen">
+      <Header />
       <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10"

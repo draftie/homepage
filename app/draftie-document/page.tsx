@@ -1,11 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 export default function DraftieDocumentPage() {
   return (
     <div className="min-h-screen">
+      <Header />
       <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10"
@@ -88,21 +90,21 @@ export default function DraftieDocumentPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
-                    <i className="ri-graduation-cap-line text-white text-sm"></i>
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-white mb-2">学習支援</h3>
-                    <p className="text-blue-100 text-sm">AIの提案を通じて特許実務のノウハウを学習し、スキル向上をサポート</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
                   <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
                     <i className="ri-money-dollar-circle-line text-white text-sm"></i>
                   </div>
                   <div>
                     <h3 className="font-medium text-white mb-2">コスト削減</h3>
                     <p className="text-blue-100 text-sm">内製化による外部委託費用の削減と、効率化による人件費の最適化を実現</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                    <i className="ri-lightbulb-line text-white text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-white mb-2">特許戦略に注力</h3>
+                    <p className="text-blue-100 text-sm">明細書の作成にかける手間を減らし、発明の発掘や権利化方針の検討に注力可能</p>
                   </div>
                 </div>
               </div>

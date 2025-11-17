@@ -88,7 +88,15 @@ export default function Services() {
                   {service.description}
                 </p>
 
-                {service.title === 'Draftie Research' ? (
+                {service.title === 'Draftie Idea' ? (
+                  <Link href="/draftie-idea" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors whitespace-nowrap cursor-pointer inline-block">
+                    詳細を見る
+                  </Link>
+                ) : service.title === 'Draftie Document' ? (
+                  <Link href="/draftie-document" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors whitespace-nowrap cursor-pointer inline-block">
+                    詳細を見る
+                  </Link>
+                ) : service.title === 'Draftie Research' ? (
                   <Link href="/draftie-research" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors whitespace-nowrap cursor-pointer inline-block">
                     詳細を見る
                   </Link>
@@ -96,13 +104,9 @@ export default function Services() {
                   <Link href="/draftie-translate" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors whitespace-nowrap cursor-pointer inline-block">
                     詳細を見る
                   </Link>
-                ) : service.title === 'Draftie Idea' ? (
-                  <Link href="/draftie-idea" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors whitespace-nowrap cursor-pointer inline-block">
-                    詳細を見る
-                  </Link>
                 ) : (
                   <Link href="/contact" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-colors whitespace-nowrap cursor-pointer inline-block">
-                    詳細を見る
+                    お問い合わせ
                   </Link>
                 )}
               </div>
